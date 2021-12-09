@@ -746,8 +746,6 @@ a {
 .cid-sFGMsvHDIa {
   z-index: 1000;
   width: 100%;
-  position: relative;
-  min-height: 60px;
 }
 .cid-sFGMsvHDIa nav.navbar {
   position: fixed;
@@ -847,8 +845,7 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0);
 }
 .cid-sFGMsvHDIa .navbar.opened {
   transition: all 0.3s;
